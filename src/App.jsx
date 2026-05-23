@@ -60,10 +60,22 @@ export default function App() {
             </div>
 
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl shadow-cyan-950/30">
-              <div className="rounded-[1.5rem] bg-slate-900 border border-slate-700 p-8">
+              <div className="rounded-[1.5rem] bg-slate-900 border border-slate-700 p-5 md:p-8">
                 <p className="text-cyan-300 text-sm uppercase tracking-widest mb-3">
                   Último projeto
                 </p>
+
+                <div className="aspect-video overflow-hidden rounded-2xl border border-white/10 bg-black mb-6">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/dGaHRfZPdKw?si=HlZvPqG6R7tV9_Zo"
+                    title="Sabre de luz DIY - Oficina Futurista do Pedro"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
+                </div>
 
                 <h3 className="text-2xl md:text-3xl font-black">
                   Sabre de luz DIY
@@ -85,7 +97,7 @@ export default function App() {
                   </a>
 
                   <a
-                    href="https://www.youtube.com/@OficinaFuturistadoPedro"
+                    href="https://www.youtube.com/watch?v=dGaHRfZPdKw"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-2xl bg-red-500 px-5 py-4 text-center font-bold text-white hover:bg-red-400 transition"
