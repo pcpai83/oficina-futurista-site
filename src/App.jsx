@@ -134,7 +134,7 @@ export default function App() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/@OficinaFuturistadoPedro"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-2xl bg-red-500 hover:bg-red-400 text-white px-6 py-4"
@@ -143,7 +143,7 @@ export default function App() {
               </a>
 
               <a
-                href="https://www.instagram.com/"
+                href="https://instagram.com/oficinafuturistadopedro"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-2xl border border-slate-600 text-white hover:bg-white/10 px-6 py-4"
