@@ -3,9 +3,12 @@ export default function App() {
     <div className="min-h-screen bg-slate-950 text-white">
       <header className="border-b border-white/10 px-6 py-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold">Oficina Futurista do Pedro</h1>
-            <p className="text-sm text-slate-400">DIY · Impressão 3D · Tecnologia</p>
+          <div className="flex items-center gap-4">
+           <img
+            src="/logo-ofp.png"
+            alt="Oficina Futurista do Pedro"
+            className="h-10 md:h-12 w-auto object-contain"
+           />
           </div>
 
           <nav className="hidden md:flex gap-6 text-sm text-slate-300">
@@ -17,9 +20,14 @@ export default function App() {
       </header>
 
       <main>
-        <section className="px-6 py-20">
+        <section className="px-6 py-16 md:py-20">
           <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
             <div>
+              <img
+                src="/logo-oficina.png"
+                alt="Oficina Futurista do Pedro"
+                className="w-full max-w-[260px] md:max-w-[320px] mb-8 object-contain"
+              />
               <p className="inline-block rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-200 mb-6">
                 DIY, tecnologia, impressão 3D e criatividade
               </p>
