@@ -156,7 +156,134 @@ export default function App() {
             </div>
           </div>
         </section>
+        <section id="projetos-destaque" className="px-6 py-20 bg-slate-950">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-10">
+              <p className="text-cyan-300 text-sm uppercase tracking-widest mb-3">
+                Projetos em destaque
+              </p>
 
+              <h2 className="text-3xl md:text-4xl font-black">
+                Vídeos do canal
+              </h2>
+
+              <p className="mt-4 text-slate-300 max-w-2xl">
+                Alguns dos projetos já publicados na Oficina Futurista do Pedro: impressão 3D,
+                sabres de luz, LEDs e experiências maker.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="rounded-3xl bg-slate-900 border border-white/10 overflow-hidden hover:border-cyan-300/40 transition">
+                <div className="aspect-video bg-black">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/L6slzUtpuMg"
+                    title="Do CAD à Realidade: Luminária 3D com LEDs 5V"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <div className="p-6">
+                  <p className="text-xs text-cyan-300 uppercase tracking-widest mb-3">
+                    Impressão 3D
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3">
+                    Do CAD à Realidade: Luminária 3D com LEDs 5V
+                  </h3>
+
+                  <p className="text-slate-300 text-sm leading-relaxed mb-5">
+                    Um projeto completo, desde o desenho até à montagem final com LEDs 5V.
+                  </p>
+
+                  <a
+                    href="https://youtu.be/L6slzUtpuMg"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex rounded-2xl bg-red-500 hover:bg-red-400 text-white px-5 py-3 font-bold transition"
+                  >
+                    Ver no YouTube
+                  </a>
+                </div>
+              </div>
+
+              <div className="rounded-3xl bg-slate-900 border border-white/10 overflow-hidden hover:border-cyan-300/40 transition">
+                <div className="aspect-video bg-black">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/dGaHRfZPdKw"
+                    title="Fiz o Sabre de Luz dos sonhos para o meu Filho"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <div className="p-6">
+                  <p className="text-xs text-cyan-300 uppercase tracking-widest mb-3">
+                    Sabre de luz
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3">
+                    Fiz o Sabre de Luz dos sonhos para o meu Filho!
+                  </h3>
+
+                  <p className="text-slate-300 text-sm leading-relaxed mb-5">
+                    A transformação de um brinquedo simples num sabre de luz maker com eletrónica e impressão 3D.
+                  </p>
+
+                  <a
+                    href="https://youtu.be/dGaHRfZPdKw"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex rounded-2xl bg-red-500 hover:bg-red-400 text-white px-5 py-3 font-bold transition"
+                  >
+                    Ver no YouTube
+                  </a>
+                </div>
+              </div>
+
+              <div className="rounded-3xl bg-slate-900 border border-white/10 overflow-hidden hover:border-cyan-300/40 transition">
+                <div className="aspect-video bg-black">
+                  <iframe
+                    className="w-full h-full"
+                    src="https://www.youtube.com/embed/apijhqQ06Rk"
+                    title="Não compres uma Blade Neopixel sem ver isto"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+
+                <div className="p-6">
+                  <p className="text-xs text-cyan-300 uppercase tracking-widest mb-3">
+                    Neopixel
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3">
+                    Não compres uma Blade Neopixel sem ver isto! ⚡️
+                  </h3>
+
+                  <p className="text-slate-300 text-sm leading-relaxed mb-5">
+                    Um alerta e explicação prática para quem quer comprar ou montar uma lâmina Neopixel.
+                  </p>
+
+                  <a
+                    href="https://youtu.be/apijhqQ06Rk"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex rounded-2xl bg-red-500 hover:bg-red-400 text-white px-5 py-3 font-bold transition"
+                  >
+                    Ver no YouTube
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="canal" className="px-6 py-20">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black">
