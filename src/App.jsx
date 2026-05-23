@@ -59,17 +59,44 @@ export default function App() {
               </div>
             </div>
 
-            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5">
-              <div className="aspect-video rounded-[1.5rem] bg-slate-900 border border-slate-700 flex items-center justify-center text-center p-8">
-                <div>
-                  <p className="text-cyan-300 text-sm uppercase tracking-widest mb-3">
-                    Último projeto
-                  </p>
-                  <h3 className="text-2xl md:text-3xl font-black">
-                    Sabre de luz DIY
-                  </h3>
-                  <p className="mt-3 text-slate-300">
-                    Impressão 3D, eletrónica, LEDs e código próprio.
+            <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl shadow-cyan-950/30">
+              <div className="rounded-[1.5rem] bg-slate-900 border border-slate-700 p-8">
+                <p className="text-cyan-300 text-sm uppercase tracking-widest mb-3">
+                  Último projeto
+                </p>
+
+                <h3 className="text-2xl md:text-3xl font-black">
+                  Sabre de luz DIY
+                </h3>
+
+                <p className="mt-4 text-slate-300 leading-relaxed">
+                  Transformei um sabre de luz simples num projeto maker com impressão 3D,
+                  eletrónica, LEDs e código próprio em CircuitPython.
+                </p>
+
+                <div className="mt-6 grid sm:grid-cols-2 gap-4">
+                  <a
+                    href="https://github.com/pcpai83/LightSaber_CircuitPyton"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-2xl border border-cyan-300/30 bg-cyan-300/10 px-5 py-4 text-center font-bold text-cyan-200 hover:bg-cyan-300/20 transition"
+                  >
+                    Ver projeto no GitHub
+                  </a>
+
+                  <a
+                    href="https://www.youtube.com/@OficinaFuturistadoPedro"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="rounded-2xl bg-red-500 px-5 py-4 text-center font-bold text-white hover:bg-red-400 transition"
+                  >
+                    Ver vídeo no YouTube
+                  </a>
+                </div>
+
+                <div className="mt-6 rounded-2xl border border-white/10 bg-black/30 p-4">
+                  <p className="text-sm text-slate-400">
+                    Projeto aberto: ficheiros, código e documentação disponíveis para quem quiser aprender ou adaptar.
                   </p>
                 </div>
               </div>
